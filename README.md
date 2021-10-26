@@ -14,7 +14,7 @@
   <tr>
     <td>
       <h2><b> Stack :</b></h2>
-         <img src="https://open4tech.com/wp-content/uploads/2018/12/word-image.png" alt="array img" width="500px" height="370px"></td>
+         <img src="https://cdn.educba.com/academy/wp-content/uploads/2020/01/Stack-in-Data-Structure.jpg" alt="array img" width="500px" height="370px"></td>
     <td>
     <h2><b> Queue :</b></h2>
          <img src="https://www.colligso.com/images/stories/queue2.gif" alt="array img" width="500px" height="370px"></td>

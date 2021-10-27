@@ -32,7 +32,7 @@
       <h2><b> Graph :</b></h2>
          <img src="https://i.pinimg.com/originals/f8/8a/ca/f88acab7ffd127b4465659500aa0538f.gif" alt="graph img" width="500px" height="350px"></td>
     <td>
-    <h2><b> Trie :</b></h2>
+    <h2><b> Trie :</b></h2> 
          <img src="https://cdn-media-1.freecodecamp.org/images/YiPnUv0Hp9U7qLalllTFdVewHDGApfZ6OMdh" alt="trie img" width="500px" height="350px"></td>
   </tr>
 </Table>

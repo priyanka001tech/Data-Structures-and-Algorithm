@@ -6,7 +6,7 @@ int main(){
 	scanf("%c",&ch);
 	printf("ENTER THE VALUES : ");
 	scanf("%d %d",&a,&b);
-	
+	 
 	switch(ch){
 		case '+': printf("sum is %d",a+b);
 				  break;
@@ -19,5 +19,5 @@ int main(){
 		default: printf("not correct");		  		  		  		  	
 			
 	}
-	
+	return 0;
 }

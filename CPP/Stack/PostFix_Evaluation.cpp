@@ -4,7 +4,7 @@
 using namespace std;
 
 int postfixEvaluation(string s){
-	stack<int> st;
+	stack<int> st; 
 	int i;
 	for(i=0;i<s.length();i++){
 		if(s[i]>='0' && s[i]<='9'){

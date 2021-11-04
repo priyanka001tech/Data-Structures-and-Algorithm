@@ -26,7 +26,7 @@ int main()
 	{
 	    for(j=1;j<=n;j=j+2){
 		  if(i%2!=0)
-		  {
+		  { 
 			sum=sum+pow(x,j)/fact(j);
 		  }
 		  else{

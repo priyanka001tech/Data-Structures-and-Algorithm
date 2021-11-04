@@ -9,8 +9,8 @@ int main()
     printf("Enter the range ");
     scanf("%f",&n);
     printf("Enter the common ratio ");
-    scanf("%f",&d);
-     v = a;
+    scanf("%f",&d); 
+    v = a;
     printf("GP SERIES\n");
     for(int i = 0; i < n; i++) {
         printf("%f ", v);

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main()   
 {
     float n,d,a,v;
     float s=0;

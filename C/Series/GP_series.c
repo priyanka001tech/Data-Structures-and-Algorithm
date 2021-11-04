@@ -2,7 +2,7 @@
 
 int main()
 {
-    float n,d,a,v;
+    float n,d,a,v;  
     float s=0;
     printf("Enter the first value ");
     scanf("%f",&a);

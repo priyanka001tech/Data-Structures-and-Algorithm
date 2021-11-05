@@ -15,7 +15,7 @@ int main(){
 	}
 	else if(n>=60 && n<70){
 		printf("THE GRADE IS B");
-	}
+	} 
 	else if(n>=50 && n<60){
 		printf("THE GRADE IS C");
 	}
@@ -28,5 +28,5 @@ int main(){
 	else{
 		printf("INVALID MARKS");
 	}
-		
+	return 0;	
 }

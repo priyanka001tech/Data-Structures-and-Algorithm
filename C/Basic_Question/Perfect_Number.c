@@ -17,6 +17,5 @@ int main()
     else{
         printf("%d not perfect number ",p);
     }
-
     return 0;
 }

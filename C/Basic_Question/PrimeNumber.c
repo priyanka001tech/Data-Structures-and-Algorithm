@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(){
-     int i, j, n, isPrime;
+int main() {
+    int i, j, n, isPrime;
     printf("Find prime numbers between 1 to : ");
     scanf("%d", &n);
 
@@ -18,6 +18,5 @@ int main(){
            printf("%d ", i);
         }
     }
-   
     return 0;
 }

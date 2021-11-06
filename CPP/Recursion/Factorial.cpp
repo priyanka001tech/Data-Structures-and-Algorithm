@@ -18,3 +18,4 @@ int main(){
 	cout << "The factorial of the number is " << s << endl;
   return 0;
 }
+     

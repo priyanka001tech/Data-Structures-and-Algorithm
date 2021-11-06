@@ -8,7 +8,7 @@ int fibonacci(int n){
 }
 
 int main(){
-    int t, i;
+    int t, i; 
     cout << "Enter number of terms in Fibonacci series: ";
     cin >> t;
     cout << "Fibonacci series " << endl; 

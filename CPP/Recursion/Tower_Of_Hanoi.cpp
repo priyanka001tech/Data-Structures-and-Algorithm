@@ -2,7 +2,7 @@
 using namespace std;
  
 void towerOfHanoi(int n, char src, char dest, char helper)
-{
+{ 
     if (n == 1){
         cout << "Move disk 1 from rod " << src << " to rod " << dest << endl;
         return;

@@ -19,7 +19,7 @@ int min(int a,int b){
 }
 int main()
 {
-    int mx=-100000;
+    int mx=-10000000;
     int mn=99999999;
     int a[10];
     int s=0,i;

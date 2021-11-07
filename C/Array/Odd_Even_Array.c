@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{
+{ 
     int arr[10],even[10],odd[10],evncnt=0,oddcnt=0,i;
     printf("Input numbers in the array :");
     for(i=0;i<10;i++)

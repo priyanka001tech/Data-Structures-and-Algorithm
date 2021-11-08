@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+
 int dig(int n){
     int a,r,c=0;
     while(n!=0){
@@ -9,8 +10,8 @@ int dig(int n){
     }
     return c;
 }
-int main()
-{
+
+int main(){
     int n,a,r,p,c=0;
     printf("ENTER THE NUMBER ");
     scanf("%d",&n);

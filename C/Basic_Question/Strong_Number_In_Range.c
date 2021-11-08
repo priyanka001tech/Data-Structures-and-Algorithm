@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
       int i, j, cur, ld;
       int fact, sum;
       for(i=1; i<=50000; i++){

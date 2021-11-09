@@ -14,3 +14,10 @@ int main()
 
     return 0;
 }
+
+//Output:-
+the range is 4
+* * * * 
+* * * 
+* * 
+* 

@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
     int a=65;
     int n;
     printf("Enter the range : ");
@@ -14,7 +13,6 @@ int main()
         a++;
         printf("\n");
     }
-
     return 0;
 }
 

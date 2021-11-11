@@ -3,6 +3,7 @@
 # that Aj  is divisible by Ai . Calculate the maximum star value of a given
 # sequence.
 
+
 number=[]
 ans=[]
 maxi=0
@@ -26,3 +27,21 @@ print("The star array is ", end=" ")
 print(ans)    
 print("The maximum star element is ",end="")
 print(maxi)
+
+# Enter the no of elements: 7
+
+# 5 
+
+# 4 
+
+# 3
+
+# 2
+
+# 1
+
+# 5
+
+# 9
+# The star array is  [0, 0, 0, 1, 4, 1, 0]
+# The maximum star element is 4

@@ -15,6 +15,5 @@ int main()
     
     int d=powerOf(a,b);
     cout << d << endl;
-
     return 0;
 }

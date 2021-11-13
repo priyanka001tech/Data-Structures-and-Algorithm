@@ -14,7 +14,7 @@ int main() {
             if(arr[i]==0){
                 dr++;
             }
-            else if(arr[i]==1){
+            else if(arr[i]==1){ 
                 ra++;
             }
             else{

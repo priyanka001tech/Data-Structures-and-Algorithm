@@ -8,7 +8,7 @@
  
 <Table> 
   <tr>   
-    <td>
+    <td> 
       <h2><b> Array :</b></h2>
          <img src="https://i.gifer.com/origin/1c/1c5d8eaaca6d8643e243c97cb24a59e4_w200.gif" alt="array img" width="500px" height="300px"></td>
     <td>

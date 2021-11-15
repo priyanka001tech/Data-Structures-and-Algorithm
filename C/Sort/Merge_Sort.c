@@ -8,7 +8,7 @@ void input(int A[],int n)
 }
 void display(int A[],int n)
 {
-    int i;
+    int i; 
     for(i=0;i<n;i++)
         printf("%d ",A[i]);
 }

@@ -2,7 +2,6 @@
 #include <conio.h>
 #include <stdlib.h>
 
-
 int getMax(int list[], int n) {
     int mx = list[0];
     int i;

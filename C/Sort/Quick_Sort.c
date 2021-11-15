@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 void input(int A[],int n)
 {
     int i;

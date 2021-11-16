@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 struct node{
@@ -59,8 +58,8 @@ int main()
         prev1=p1;
     }
 
-      struct node* res = NULL;
-     struct node *head2,*prev2,*p2;
+    struct node* res = NULL;
+    struct node *head2,*prev2,*p2;
     cout<<"size of ll2:";
     cin>>n2;
     head2=NULL;

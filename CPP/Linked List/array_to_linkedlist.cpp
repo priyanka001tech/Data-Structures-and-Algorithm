@@ -1,12 +1,10 @@
 #include <iostream>
 using namespace std;
 
-
 struct node {
 	int data;
 	node* next;
 };
-
 
 void insert(node** link, int item)
 {

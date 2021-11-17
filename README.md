@@ -38,6 +38,6 @@
     <td>
     <h2><b> Trie :</b></h2> 
          <img src="https://cdn-media-1.freecodecamp.org/images/YiPnUv0Hp9U7qLalllTFdVewHDGApfZ6OMdh" alt="trie img" width="500px" height="350px"></td>
-  </tr>
+  </tr> 
 </Table> 
  

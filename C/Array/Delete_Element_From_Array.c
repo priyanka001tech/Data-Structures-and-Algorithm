@@ -23,5 +23,5 @@ int main(){
         }
 		printf("\nNo of shifts %d ",s-n);      
     }    
-	return 0;
+    return 0;
 }

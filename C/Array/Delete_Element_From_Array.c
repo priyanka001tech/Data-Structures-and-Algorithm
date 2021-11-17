@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
     int array[100], position, c, n,s=0;
     printf("Enter number of elements in array: ");

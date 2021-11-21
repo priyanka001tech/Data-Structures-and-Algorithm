@@ -28,7 +28,7 @@ int countSetBits(int n)
 }
 
 int main()
-{
+{ 
     int n;
     cin >> n;
     cout << SetBits(n) << "\n";

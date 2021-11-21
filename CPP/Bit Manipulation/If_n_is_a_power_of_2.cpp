@@ -28,7 +28,7 @@ bool isPowerofTwo(int n)
         n = n / 2;
     }
     return true;
-}
+} 
 */
 
 // 3. Powers of two have exactly one set bit

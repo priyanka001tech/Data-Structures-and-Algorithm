@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 //program to implement binary search tree
 struct node
@@ -101,6 +100,5 @@ int main()
     {
         cout << "element not found" << endl;
     }
-
     return 0;
 }

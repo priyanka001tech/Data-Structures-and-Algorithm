@@ -11,7 +11,7 @@ struct Node
         left=right=nullptr;
     }
 };
-
+ 
 Node* insert(Node* root,int x) //insertion in BST is always in leaf node
 {
     if(root==NULL) //time to craete the node as we have reached a leaf end

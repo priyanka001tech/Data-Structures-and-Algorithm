@@ -29,9 +29,7 @@ int maxActivities(pair <int, int> arr[], int n)
 int main()
 {
 	pair <int, int> arr[] = {make_pair(12, 25), make_pair(10, 20), make_pair(20, 30)};
-
 	int n = 3;
-
 	cout<<maxActivities(arr, n); 
 
 	return 0;

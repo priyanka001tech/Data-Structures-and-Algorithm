@@ -50,7 +50,7 @@ void printHcodes(char arr[], int freq[], int size)
 	for (int i = 0; i < size; ++i)
 		h.push(new Node(arr[i], freq[i]));
 
-	while (h.size() > 1) {
+	while (h.size() > 1) { 
 
 		Node *l = h.top();h.pop();
 

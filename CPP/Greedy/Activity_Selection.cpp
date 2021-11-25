@@ -4,7 +4,7 @@ using namespace std;
 bool myCmp(pair <int, int> a, pair <int, int> b)
 {
 	return (a.second < b.second);
-}
+} 
 
 int maxActivities(pair <int, int> arr[], int n)
 {

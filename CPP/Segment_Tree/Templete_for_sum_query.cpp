@@ -41,7 +41,7 @@ public:
         int mid = low+(high-low)/2;
         return (rangeUtil(qlow, qhigh, low, mid, 2*pos+1) + rangeUtil(qlow, qhigh, mid+1, high, 2*pos+2));
     }
-    
+     
     NumArray(vector<int>& nums) {
         if(nums.size() > 0){
             n = nums.size();

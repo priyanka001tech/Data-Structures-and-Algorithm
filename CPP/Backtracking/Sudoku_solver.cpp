@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-#define N 9        // N is the size of the matrix i.e., N*N
-//Function to print the matrix
+#define N 9        
+
 void print(int arr[N][N])
 {
 	for (int i = 0; i < N; i++)
@@ -22,9 +22,7 @@ bool isValid(int puzzle[N][N], int row,	int col, int number)
 	for (int x = 0; x <= 8; x++)
 		if (puzzle[x][col] == number)
 			return false;
-	/*Check if we find the same number in
-	 the particular 3*3 matrix,
-	 we return false*/
+	
 	int sRow = row - row % 3,
 			sCol = col - col % 3;
 	for (int i = 0; i < 3; i++)
@@ -55,16 +53,12 @@ bool solution(int puzzle[N][N], int row, int col)
 		//Check whether a number (1-9) can be placed in the given row,col
 		if (isValid(puzzle, row, col, number))
 		{	
-		/* Let the number is present in the current(row,col)
-        position of the puzzle and let the assigned  
-        number in that position is correct*/
 			puzzle[row][col] = number;
 			// Checking for next possibility with next column
 			if (solution(puzzle, row, col + 1))
 				return true;
 		}
-	/* If assumption is wrong, then remove the assigned number
-	Proceed with a different value for next assumption*/
+	
 		puzzle[row][col] = 0;
 	}
 	return false;

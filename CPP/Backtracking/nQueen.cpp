@@ -4,7 +4,6 @@ using namespace std;
 bool safe(int a[][25], int row, int col)
 {
 
-    // row check
     for (int i = 0; i < row; i++)
     {
         if (a[i][col] == 1)
@@ -63,7 +62,7 @@ bool NQ(int a[][25], int n, int i = 0)
             a[i][j] = 0; //remove if un safe
         }
     }
-    return 0; // baktrack if row overflow
+    return 0; 
 }
 
 int main()

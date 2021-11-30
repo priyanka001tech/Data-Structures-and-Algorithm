@@ -21,10 +21,5 @@ int main()
 {
     vector<int> v;
     getSubsets(0, v);
-    // for (auto v:temp){
-    //     for (auto i:v)
-    //         cout<<i<<" ";
-    //     cout<<endl;
-    // }
     return 0;
 }

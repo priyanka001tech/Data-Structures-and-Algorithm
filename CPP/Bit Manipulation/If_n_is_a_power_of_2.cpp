@@ -18,7 +18,7 @@ bool isPowerofTwo(int n)
     return (ceil(log2(n)) == floor(log2(n)));
 }
 // 2. Keep dividing the number by 2. If n%2 becomes non-zero and n is not 1 then n is not a power of 2. If n becomes 1 then it is a power of 2. 
-bool isPowerofTwo(int n)
+bool isPowerofTwo(int n) 
 {
     if (n == 0)
         return false;

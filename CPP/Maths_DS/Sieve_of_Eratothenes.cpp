@@ -18,4 +18,5 @@ int main()
     for (int p=2;p<=n;p++)
         if (pri[p])
             cout << p << " ";
+ return 0;
 }

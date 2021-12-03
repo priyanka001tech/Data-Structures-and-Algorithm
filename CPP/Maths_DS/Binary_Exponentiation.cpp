@@ -4,7 +4,6 @@ using namespace std;
 int binPow(int x, int y)
 {
     int res = 1;
-
     while (y)
     {
         if (y % 2 == 1)

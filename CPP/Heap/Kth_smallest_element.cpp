@@ -5,7 +5,7 @@ using namespace std;
 priority_queue<int> heap; //max heap
 
 int Solve(int a[], int n, int k) {
-
+ 
 	for (int i = 0; i < n; i++) {
 		heap.push(a[i]);
     

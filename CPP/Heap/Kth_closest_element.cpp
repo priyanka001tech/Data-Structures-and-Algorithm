@@ -6,7 +6,7 @@ using namespace std;
 priority_queue<pair<int, int>> heap; //max heap
 
 int main() {
-  
+ 
 	int n, k;
 	cin >> n >> k;
 	int x;

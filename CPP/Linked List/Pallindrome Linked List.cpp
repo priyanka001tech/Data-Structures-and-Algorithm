@@ -3,11 +3,11 @@ using namespace std;
 
 class Node {
 public:
-		int data;
-		Node(int d){
-			data = d;
-		}
-		Node *ptr;
+	int data;
+	Node(int d){
+		data = d;
+	}
+	Node *ptr;
 };
 
 // Function to check if the linked list
@@ -15,7 +15,7 @@ public:
 bool isPalin(Node* head){
 		
 		// Temp pointer
-		Node* slow= head;
+	 Node* slow= head;
 
 		// Declare a stack
 		stack <int> s;
@@ -50,7 +50,7 @@ bool isPalin(Node* head){
 		head=head->ptr;
 		}
 
-return true;
+	return true;
 }
 
 // Driver Code
@@ -79,5 +79,5 @@ int main(){
 	else
 		cout<<"isPalindrome is true\n";
 
-return 0;
+	return 0;
 }

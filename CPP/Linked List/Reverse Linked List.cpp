@@ -1,25 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
 struct node {
     int data; 
     struct node *next; 
 }*head;
 
-
-
 void createList(int n);
 void reverseList();
 void displayList();
-
 
 int main()
 {
     int n, choice;
 
-   
     printf("Enter the total number of nodes: ");
     scanf("%d", &n);
     createList(n);
@@ -27,7 +21,6 @@ int main()
     printf("\nData in the list \n");
     displayList();
 
-   
     printf("\nPress 1 to reverse the order of singly linked list\n");
     scanf("%d", &choice);
     if(choice == 1)
@@ -40,7 +33,6 @@ int main()
 
     return 0;
 }
-
 
 
 void createList(int n)
@@ -117,7 +109,6 @@ void reverseList()
         printf("SUCCESSFULLY REVERSED LIST\n");
     }
 }
-
 
 
 void displayList()

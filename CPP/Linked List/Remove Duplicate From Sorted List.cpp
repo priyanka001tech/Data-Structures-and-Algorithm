@@ -31,6 +31,6 @@ public:
             }
         }
         // return final linked list after removing duplicate from original linked list
-        return head;
+        return head; 
     }
 };

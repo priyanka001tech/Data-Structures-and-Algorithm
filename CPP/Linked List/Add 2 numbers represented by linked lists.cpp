@@ -119,7 +119,6 @@ int main()
     while(t--)
     {
         int n, m;
-        
         cin>>n;
         Node* first = buildList(n);
         
@@ -127,7 +126,7 @@ int main()
         Node* second = buildList(m);
         Solution ob;
         Node* res = ob.addTwoLists(first,second);
-        printList(res);
-    }
+        printList(res); 
+    } 
     return 0;
 }

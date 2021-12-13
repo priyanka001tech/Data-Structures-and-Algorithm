@@ -10,7 +10,7 @@ def adp(x):
     if properdiv(x)>x:
         print(x,'\tAbundant Number')
     elif properdiv(x)<x:
-        print(x,'\tDeficit Number')
+        print(x,'\tDeficite Number')
     else:
         print(x,'\tPerfect Number')
 

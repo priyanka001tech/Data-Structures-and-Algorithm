@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-    
     string s="aaaabbaa";
         int len=s.size();
     if(len<2)

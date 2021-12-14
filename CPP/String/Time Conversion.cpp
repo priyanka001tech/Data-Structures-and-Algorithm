@@ -41,8 +41,5 @@ int main()
     string result = timeConversion(s);
 
     cout << result << "\n";
-
-   
-
     return 0;
 }

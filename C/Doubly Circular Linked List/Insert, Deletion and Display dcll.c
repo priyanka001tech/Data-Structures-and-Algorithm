@@ -4,6 +4,8 @@
 void create();
 void insert_at_beginning();
 void insert_at_last();
+void deletion_at_beginning();
+void deletion_at_end();
 void display();
 
 struct node{
@@ -15,8 +17,8 @@ struct node{
 struct node *start=NULL, *last=NULL;
 
 int main(){
-	
 	int ch,y;
+	
 	create();
 	do{
 		printf("\n Enter your choice \n");
@@ -28,10 +30,14 @@ int main(){
 					break;
 			case 3: display();
 					break;
+			case 4: deletion_at_beginning();
+					break;
+			case 5: deletion_at_end();
+				    break;				
 			default: printf("\n Wrong choice");						
 		}
 		printf("\n Do you want to continue ??? YES:  Press 1: ");
-		scanf("%d", &y);
+		scanf("%d",&y);
 	}while(y==1);
 }
 
@@ -102,14 +108,66 @@ void insert_at_last(){
 		
 	}
 }
+void deletion_at_beginning(){
+	struct node *temp;
+	temp=start;
+	
+	if(temp==NULL){
+		printf("Deletion is not possible");
+	}
+	else{
+	
+		  if(start->next==start){ 
+		    	 start=NULL;
+		   		 last=NULL;
+		  }
+		  else{
+		  		start=start->next;
+		  		last->next=start;
+		  		start->prev=last;
+		  		temp->prev=NULL;
+		  		temp->next=NULL;
+		  }	
+		  printf("%d is deleted from front",temp->data);
+		  free(temp); 
+		  
+	}
+}
+void deletion_at_end(){
+	struct node *temp;
+	temp=last;
+	
+	if(temp==NULL){
+		printf("Deletion is not possible");
+	}
+	else{
+	
+		if(start->next==start){ 
+		    start=NULL;
+		   	last=NULL;
+		}
+		else{
+			last=last->prev;
+			last->next=start;
+			start->prev=last;
+			temp->prev=NULL;
+			temp->next=NULL;
+			printf("%d is deleted from end",temp->data);
+			free(temp);
+		}
+	}
+}
 void display(){
 	struct node* temp;
 	temp=start;
-	if(temp==NULL){
+	if(start==NULL){
 		printf("\n List is empty");
 	}
-	do{
-		printf("%d ",temp->data);
-		temp=temp->next;
-	}while(temp!=start);
+	else{
+		do{
+			printf("%d ",temp->data);
+			temp=temp->next;
+		}while(temp!=start);
+	}
+	
 }

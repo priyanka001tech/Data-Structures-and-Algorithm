@@ -13,7 +13,7 @@ struct node{
 	struct node *prev;
 	struct node *next;
 };
-
+ 
 struct node *start=NULL, *last=NULL;
 
 int main(){

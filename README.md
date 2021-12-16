@@ -6,7 +6,7 @@
 <p> Then Stop thinking more and start to learn today. This repo will help you to enhance your skills...Don't be bother about language (not english, hindi etc 😆😆 its C, C++, Python, Java etc 👍) you can choose any language and start learning...Have a good day!!! </p><br/>
 
 <Table> 
-  <tr>     
+  <tr>      
     <td> 
       <h2><b> Array :</b></h2>
          <img src="https://media.giphy.com/media/60rrOIi2ZURBKymZ9y/giphy.gif" alt="array img" width="500px" height="300px"></td>

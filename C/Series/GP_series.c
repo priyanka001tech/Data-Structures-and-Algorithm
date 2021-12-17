@@ -6,7 +6,7 @@ int main()
     float s=0;
     printf("Enter the first value ");
     scanf("%f",&a);
-    printf("Enter the range ");
+    printf("Enter the range "); 
     scanf("%f",&n);
     printf("Enter the common ratio ");
     scanf("%f",&d); 

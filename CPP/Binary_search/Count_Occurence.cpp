@@ -9,7 +9,7 @@ int BS_1st(int a[], int n, int x) {
 	int e = n - 1;
 	int res = -1;
 
-	while (s <= e) {
+	while (s <= e) { 
 
 		int mid = s + (e - s) / 2;
 

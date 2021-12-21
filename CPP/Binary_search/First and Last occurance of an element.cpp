@@ -4,7 +4,7 @@ using namespace std;
 // first and last occurance of an element
 
 int BS_1st(int a[], int n, int x) {
-
+ 
 	int s = 0;
 	int e = n - 1;
 	int res = -1;

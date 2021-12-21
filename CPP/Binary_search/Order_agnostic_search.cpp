@@ -5,7 +5,7 @@ using namespace std;
 // array can be asc/desc sorted
 
 int binarySearch(int a[], int n, int x, bool rev) {
-
+ 
 	int s = 0;
 	int e = n - 1;
 
@@ -22,7 +22,6 @@ int binarySearch(int a[], int n, int x, bool rev) {
 	}
 
 	return -1;
-
 }
 
 int main() {

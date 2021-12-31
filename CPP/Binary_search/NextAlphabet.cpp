@@ -26,13 +26,7 @@ char BinarySearch(char a[], int x, int s, int e) {
 }
 
 int main() {
-
-#ifndef ONLINE_JUDGE
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
-#endif
-
-
+	
 	int n;
 	char x;
 	cin >> n >> x;

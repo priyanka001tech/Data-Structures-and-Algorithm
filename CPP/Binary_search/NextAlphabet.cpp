@@ -4,7 +4,7 @@ using namespace std;
 // Next Alphabet (kindof ceil in terms of ascii)
 
 char BinarySearch(char a[], int x, int s, int e) {
-
+ 
 	char res = '#';
 	while (s <= e) {
 

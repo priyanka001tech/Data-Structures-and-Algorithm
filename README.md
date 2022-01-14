@@ -11,7 +11,7 @@
       <h2><b> Array :</b></h2>
          <img src="https://media.giphy.com/media/60rrOIi2ZURBKymZ9y/giphy.gif" alt="array img" width="500px" height="300px"></td>
     <td>
-    <h2><b> String :</b></h2>
+    <h2><b> String :</b></h2> 
          <img src="https://www.2braces.com/images/string-functions.svg" alt="string img" width="500px" height="300px"></td>
   </tr>
   <tr>

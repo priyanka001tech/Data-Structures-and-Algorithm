@@ -3,7 +3,7 @@ using namespace std;
 
 class Solution
 {
-    public:
+    public: 
     //Function to count number of ways to reach the nth stair 
     //when order does not matter.
     long long countWays(int m)

@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Solution
+class Solution 
 {
     public: 
     //Function to count number of ways to reach the nth stair 

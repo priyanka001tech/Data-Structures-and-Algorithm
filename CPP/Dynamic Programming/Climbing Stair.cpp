@@ -3,7 +3,7 @@
 // Reason: We are running a simple iterative loop
 
 // Space Complexity: O(N)  
-// Reason: We are using an external array of size ‘n+1’.
+// Reason: We are using an external array of size ‘n+1’. 
 
 #include <bits/stdc++.h>
 using namespace std;

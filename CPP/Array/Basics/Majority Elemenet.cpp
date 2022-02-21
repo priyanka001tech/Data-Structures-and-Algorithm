@@ -52,7 +52,7 @@ public:
 // 4. If the count reaches 0 then update the potential index to the current element and sets count to 1.
 // Time Complexity: O(n)
 // Space Complexity: O(1)
-
+ 
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {

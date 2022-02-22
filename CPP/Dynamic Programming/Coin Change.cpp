@@ -35,3 +35,26 @@ int change(int amount, vector<int>& coins) {
         }
         return dp[n-1][amount];
 }
+
+// Space Optimization
+
+int change(int amount, vector<int>& coins) {
+        int n=coins.size();
+        vector<int> curr(amount+1,0);
+        vector<int> prev(amount+1,0);
+        for(int i=0;i<=amount;i++){
+            prev[i]=(i%coins[0]==0);
+        }
+        for(int idx=1;idx<n;idx++){
+            for(int am=0;am<=amount;am++){
+                int notTake=prev[am];
+                int take=0;
+                if(coins[idx]<=am){
+                    take=curr[am-coins[idx]];
+                }
+                curr[am] = take+notTake;
+            }
+            prev=curr;
+        }
+        return prev[amount];
+}

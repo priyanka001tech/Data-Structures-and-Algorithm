@@ -8,7 +8,7 @@
 
 // Example 1:
 
-// Input: s = "leetcode", t = "coats"
+// Input: s = "leetcode", t = "coats" 
 // Output: 7
 // Explanation: 
 // - In 2 steps, we can append the letters in "as" onto s = "leetcode", forming s = "leetcodeas".

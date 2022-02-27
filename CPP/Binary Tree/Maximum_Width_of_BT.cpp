@@ -14,7 +14,7 @@
 
 // 1. pop(5,0);
 
-// 	now we look at size of queue, size is one therefore
+// 	now we look at size of queue, size is one therefore 
 // 	and now we will insert,
 // 	left and right child of popped node that is 5 in this case
 // 	therefore,  

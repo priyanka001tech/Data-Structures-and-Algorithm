@@ -10,7 +10,7 @@ struct Node
       key=k;
       left=right=NULL;
   }
-};
+}; 
 
 int height(Node *root){
     if(root==NULL)

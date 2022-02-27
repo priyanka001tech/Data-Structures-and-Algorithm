@@ -7,39 +7,43 @@
 // You are also given an integer totalTrips, which denotes the number of trips all buses should make in total. Return the minimum time required for all buses to complete at least totalTrips trips.
 
 // Example 1:
- 
-// Input: s = "leetcode", t = "coats"
-// Output: 7
-// Explanation: 
-// - In 2 steps, we can append the letters in "as" onto s = "leetcode", forming s = "leetcodeas".
-// - In 5 steps, we can append the letters in "leede" onto t = "coats", forming t = "coatsleede".
-// "leetcodeas" and "coatsleede" are now anagrams of each other.
-// We used a total of 2 + 5 = 7 steps.
-// It can be shown that there is no way to make them anagrams of each other with less than 7 steps.
 
-CODE:
+// Input: time = [1,2,3], totalTrips = 5
+// Output: 3
+// Explanation:
+// - At time t = 1, the number of trips completed by each bus are [1,0,0]. 
+//   The total number of trips completed is 1 + 0 + 0 = 1.
+// - At time t = 2, the number of trips completed by each bus are [2,1,0]. 
+//   The total number of trips completed is 2 + 1 + 0 = 3.
+// - At time t = 3, the number of trips completed by each bus are [3,1,1]. 
+//   The total number of trips completed is 3 + 1 + 1 = 5.
+// So the minimum time needed for all buses to complete at least 5 trips is 3.
+
+// CODE:
 
 class Solution {
-public:
-    int minSteps(string s, string t) {
-        unordered_map<char,int> mpp,mpp2;
-        for(int i=0;i<s.size();i++){
-            mpp[s[i]]++;
+private:
+    long long int findNoOfTripsGivenTime(vector<int>& time, long long int mid){
+        long long int ans=0;
+        for(auto i:time){
+            long long int x=i;
+            ans+=(mid/x);
         }
-        for(int i=0;i<t.size();i++){
-            if(mpp[t[i]]) mpp[t[i]]--;
+        return ans;
+    }
+public:
+    long long minimumTime(vector<int>& time, int totalTrips) {
+        long long int  n=time.size();
+        long long int  l=1, r=1e14, ans=0;
+        while(l<r){
+            long long int mid = l + (r-l)/2;
+            if(findNoOfTripsGivenTime(time, mid)>=totalTrips){
+                r=mid;
+            }
             else{
-                mpp2[t[i]]++;
+                l=mid+1;
             }
         }
-        int c=0;
-        for(auto i:mpp){
-            c+=i.second;
-            //cout << i.first << " " << i.second << endl;
-        }
-        for(auto i:mpp2){
-            c+=i.second;
-        }
-        return c;
+        return l;
     }
 };

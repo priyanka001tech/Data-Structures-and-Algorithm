@@ -1,6 +1,6 @@
 // 	      5					    1
 // 	   /     \
-// 	   3      6					2
+// 	   3      6				2
 // 	 /  \    /
 // 	2  NULL  4				    3 (NULL node also counted)
 

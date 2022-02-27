@@ -1,11 +1,11 @@
-# Minimum Number of Steps to Make Two Strings Anagram II
+// # Minimum Number of Steps to Make Two Strings Anagram II
 
 // You are given two strings s and t. In one step, you can append any character to either s or t.
 
 // Return the minimum number of steps to make s and t anagrams of each other.
 
 // An anagram of a string is a string that contains the same characters with a different (or the same) ordering.
-
+ 
 // Example 1:
 
 // Input: s = "leetcode", t = "coats" 

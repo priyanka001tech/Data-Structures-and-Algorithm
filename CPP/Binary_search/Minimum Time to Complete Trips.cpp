@@ -7,7 +7,7 @@
 // You are also given an integer totalTrips, which denotes the number of trips all buses should make in total. Return the minimum time required for all buses to complete at least totalTrips trips.
 
 // Example 1:
-
+ 
 // Input: s = "leetcode", t = "coats"
 // Output: 7
 // Explanation: 

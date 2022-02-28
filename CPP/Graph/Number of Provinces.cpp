@@ -4,7 +4,7 @@
 // Output: 3
 
 class Solution {
-private:
+private: 
     vector<bool> vis;
     void dfs(vector<vector<int>>& isCon, int idx){
         if(vis[idx]) return;

@@ -2,7 +2,7 @@
 // Output: 2
 // Input: isConnected = [[1,0,0],[0,1,0],[0,0,1]]
 // Output: 3
- 
+  
 class Solution {
 private: 
     vector<bool> vis;

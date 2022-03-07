@@ -12,7 +12,7 @@
 // if (t[i-1][j]>t[i][j-1])
 // {
 // res.push_back(s1[i-1]); 
-// i--; 
+// i--;  
 // }
 // 2.3) Compute till i>0 && j>0. If any of the string is left i.e if i>0 or j>0 then add its characters to the result. This means that we copied 1 complete string but other is still remaining.
 // We have got the required string but stored all the characters in reverse order. So, just reverse the result and you will get the final answer.

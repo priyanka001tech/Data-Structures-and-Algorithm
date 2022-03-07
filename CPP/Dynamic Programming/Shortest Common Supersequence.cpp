@@ -18,7 +18,7 @@
 // We have got the required string but stored all the characters in reverse order. So, just reverse the result and you will get the final answer.
 // Complete code for your refernece
 // Hope it helps!
-
+ 
 class Solution {
 public:
     string shortestCommonSupersequence(string s1, string s2) {

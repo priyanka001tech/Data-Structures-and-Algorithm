@@ -63,3 +63,20 @@ public:
 };
 
 //Tabulation
+class Solution {
+public:
+    int maxProfit(vector<int>& prices, int fee) {
+        int n=prices.size();
+        vector<vector<int>> dp(n+1, vector<int>(2,0));
+        dp[n][0]=dp[0][1]=0;
+        for(int idx=n-1; idx>=0; idx--){
+                    dp[idx][1] = max(-prices[idx] + dp[idx+1][0],
+                              0 + dp[idx+1][1]);
+
+                    dp[idx][0] = max(prices[idx]-fee + dp[idx+1][1],
+                              0 + dp[idx+1][0]);
+
+        }
+        return dp[0][1];
+    }
+};

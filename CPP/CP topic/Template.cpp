@@ -19,6 +19,9 @@ typedef vector<int> vi;
 // alternative form but not used in this book: ans <?= new_computation;
 // some code use short circuit && (AND) and || (OR)
 
+#define ALL(x) x.begin(), x.end()
+#define UNIQUE(c) (c).resize(unique(ALL(c)) - (c).begin())
+
 int main(){
      ios_base::sync_with_stdio(false);
      cin.tie(NULL);

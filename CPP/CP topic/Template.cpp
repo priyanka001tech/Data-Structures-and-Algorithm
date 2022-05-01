@@ -12,7 +12,7 @@
 // O(n^2. 2^n)   17
 // O(n!)         11
  
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> 
 using namespace std;
 typedef long long ll; // comments that are mixed in with code
 typedef pair<int, int> ii; // are aligned to the right like this

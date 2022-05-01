@@ -51,8 +51,8 @@ void naiveMatching() {
           bool found = true;
           for (int j = 0; j < m && found; j++) // use boolean flag ‘found’
                if (i + j >= n || P[j] != T[i + j]) // if mismatch found
-               found = false; // abort this, shift the starting index i by +1
-               if (found) // if P[0..m-1] == T[i..i+m-1]
+                    found = false; // abort this, shift the starting index i by +1
+          if (found) // if P[0..m-1] == T[i..i+m-1]
                printf("P is found at index %d in T\n", i);
      }
 }

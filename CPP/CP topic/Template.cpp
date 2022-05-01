@@ -1,3 +1,17 @@
+// Complexity    n
+// O(log n)      2(10e7)
+// O(√n)         10e14
+// O(n)          10e7
+// O(n log n)    10e6
+// O(n√n)        10e5
+// O(n^2)        5 · 103
+// O(n^2 log n)  2 · 103
+// O(n^3)        300
+// O(2^n)        24
+// O(n. 2^n)     20
+// O(n^2. 2^n)   17
+// O(n!)         11
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll; // comments that are mixed in with code

@@ -1,7 +1,7 @@
 // Complexity    n
 // O(log n)      2(10e7)
 // O(√n)         10e14
-// O(n)          10e7
+// O(n)          10e7 
 // O(n log n)    10e6
 // O(n√n)        10e5
 // O(n^2)        5 · 103

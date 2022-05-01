@@ -21,6 +21,7 @@ typedef vector<int> vi;
 
 #define ALL(x) x.begin(), x.end()
 #define UNIQUE(c) (c).resize(unique(ALL(c)) - (c).begin())
+#define rep(i, a, b) for(int i = a; i < (b); ++i)
 
 int gcd(int a, int b) { return b == 0 ? a : gcd(b, a % b); }
 int lcm(int a, int b) { return a * (b / gcd(a, b)); }

@@ -25,6 +25,27 @@ typedef vector<int> vi;
 int gcd(int a, int b) { return b == 0 ? a : gcd(b, a % b); }
 int lcm(int a, int b) { return a * (b / gcd(a, b)); }
 
+ll numDiffPF(ll N) {
+     ll PF_idx = 0, PF = primes[PF_idx], ans = 0;
+     while (PF * PF <= N) {
+          if (N % PF == 0) ans++; // count this pf only once
+          while (N % PF == 0) N /= PF;
+          PF = primes[++PF_idx];
+     }
+     if (N != 1) ans++;
+     return ans;
+}
+
+ll sumPF(ll N) {
+     ll PF_idx = 0, PF = primes[PF_idx], ans = 0;
+     while (PF * PF <= N) {
+          while (N % PF == 0) { N /= PF; ans += PF; }
+          PF = primes[++PF_idx];
+     }
+     if (N != 1) ans += N;
+     return ans;
+}
+
 int main(){
      ios_base::sync_with_stdio(false);
      cin.tie(NULL);

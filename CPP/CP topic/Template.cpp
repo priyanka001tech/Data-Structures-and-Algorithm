@@ -22,6 +22,9 @@ typedef vector<int> vi;
 #define ALL(x) x.begin(), x.end()
 #define UNIQUE(c) (c).resize(unique(ALL(c)) - (c).begin())
 
+int gcd(int a, int b) { return b == 0 ? a : gcd(b, a % b); }
+int lcm(int a, int b) { return a * (b / gcd(a, b)); }
+
 int main(){
      ios_base::sync_with_stdio(false);
      cin.tie(NULL);

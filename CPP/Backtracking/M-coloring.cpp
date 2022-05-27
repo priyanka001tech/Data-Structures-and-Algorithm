@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-bool isSafe(int node, int color[], bool graph[101][101], int n, int col) {
+bool isSafe(int node, int color[], int graph[101][101], int n, int col) {
   for (int k = 0; k < n; k++) {
     if (k != node && graph[k][node] == 1 && color[k] == col) {
       return false;
@@ -9,7 +9,7 @@ bool isSafe(int node, int color[], bool graph[101][101], int n, int col) {
   }
   return true;
 }
-bool solve(int node, int color[], int m, int N, bool graph[101][101]) {
+bool solve(int node, int color[], int m, int N, int graph[101][101]) {
   if (node == N) {
     return true;
   }
@@ -27,7 +27,7 @@ bool solve(int node, int color[], int m, int N, bool graph[101][101]) {
 
 //Function to determine if graph can be coloured with at most M colours such
 //that no two adjacent vertices of graph are coloured with same colour.
-bool graphColoring(bool graph[101][101], int m, int N) {
+bool graphColoring(int graph[101][101], int m, int N) {
   int color[N] = {
     0
   };
@@ -39,7 +39,7 @@ int main() {
   int N = 4;
   int m = 3;
 
-  bool graph[101][101] = {
+  int graph[101][101] = {
     (0, 1),
     (1, 2),
     (2, 3),

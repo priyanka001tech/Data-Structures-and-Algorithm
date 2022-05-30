@@ -60,6 +60,17 @@ vector<string> wordBreakHelper(string &s, int idx, unordered_set<string> &dictSe
     }
     return completePart;
 }
+vector<string> wordBreak(string &s, vector<string> &dictionary)
+{
+    //  Set to check the whether any word exists in the dictionary or not.
+    unordered_set<string> dictSet;
+
+    for (int i = 0; i < dictionary.size(); i++)
+    {
+        dictSet.insert(dictionary[i]);
+    }
+    return wordBreakHelper(s, 0, dictSet, s.size());
+}
 
 //MEMOIZATION
 /*
@@ -148,17 +159,7 @@ vector<string> wordBreak(string &s, vector<string> &dictionary)
     }
     return wordBreakHelper(s, 0, dictSet, dp, s.size());
 }
-vector<string> wordBreak(string &s, vector<string> &dictionary)
-{
-    //  Set to check the whether any word exists in the dictionary or not.
-    unordered_set<string> dictSet;
 
-    for (int i = 0; i < dictionary.size(); i++)
-    {
-        dictSet.insert(dictionary[i]);
-    }
-    return wordBreakHelper(s, 0, dictSet, s.size());
-}
 
 // TRIE
 /*

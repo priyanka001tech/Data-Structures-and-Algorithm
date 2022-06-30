@@ -1,3 +1,5 @@
+// RECURSION
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -50,6 +52,8 @@ int main()
  
     return 0;
 }
+
+// MEMOIZATION
 
 #include <iostream>
 #include <vector>
@@ -115,6 +119,8 @@ int main()
  
     return 0;
 }
+
+// TABULATION
 
 #include <iostream>
 #include <string>
@@ -206,3 +212,6 @@ int main()
  
     return 0;
 }
+
+// TC: O(N2)
+// SC: O(N2)
